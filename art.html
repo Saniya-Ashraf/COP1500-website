@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="STYLESHEET1.css">
+<title>My gallery</title>
+</head>
+
+
+<body>
+
+		<div class="top">
+		<a class="hl"  href="Myportfolio.html">Home</a>
+		<a class="hl" href="aboutMe.html">About Me</a>
+		<a class="hl" href="skills.html">Skills</a>
+		<a  class="hl" href="art.html">Art</a>
+		<a class="hl" href="contactMe.html">Contact Me</a>
+        <a class= "hl" href="JavaScript.html"> JavaScript Exercises</a>
+</div>
+
+<div class="box3">
+    <canvas id="myCanvas" width="300" height="100">
+        Your browser does not support the HTML5 canvas tag.</canvas>
+<script>
+
+		var c = document.getElementById("myCanvas");
+		var ctx = c.getContext("2d");
+
+		ctx.font = "50px Verdana";
+
+		// Create gradient
+		var gradient = ctx.createLinearGradient(0, 0, c.width, 0);
+		gradient.addColorStop("0", "#FF9886");
+		gradient.addColorStop("0.5", "#732F6E");
+		gradient.addColorStop("1.0", "white");
+
+		// Fill with gradient
+		ctx.strokeStyle = gradient;
+		ctx.strokeText("Welcome!", 10, 90);
+
+</script>
+	<img src="commish.gif" alt="Image cannot be displayed">
+	
+		These are some of my Works.<br>
+ 		To view the full size please click on the image!
+		Here's a video tutorial of how I draw 
+		<video width="420" height="340" controls>
+  	<source src="videotutorial.mp4" type="video/mp4">
+ 		Your browser does not support the video tag.
+</video>
+    
+    
+</div>
+
+<div class="img">
+ 	<a target="_blank" href="a.jpg"><img src="a.jpg" width="300" alt="Image cannot be displayed"></a>
+</div>
+
+<div class="img">
+		<a target="_blank" href="New Canvas.png"><img src="New Canvas.png" width="300" alt="Image cannot be displayed"></a></div>
+
+		<div class="img">
+ <a target="_blank" href="baka__by_xilverxparkle-d6z68c8.jpg"><img src="baka__by_xilverxparkle-d6z68c8.jpg" width="300" alt="Image cannot be displayed"></a></div>
+ 
+<div class="img">
+ <a target="_blank" href="urge_to_paint_by_xilverxparkle-d82ks5f.jpg"><img src="urge_to_paint_by_xilverxparkle-d82ks5f.jpg" width="300" alt="Image cannot be displayed"></a></div>
+
+<div class="img">
+		<a target="_blank" href="undine and eirik .png"><img src="undine and eirik .png" width="210" alt="Image cannot be displayed"></a></div>
+        
+<div class="img">
+		<a target="_blank" href="wudda.jpg"><img src="wudda.jpg" width="300" alt="Image cannot be displayed"></a></div>
+        
+ <div class="img">
+		<a target="_blank" href="r.jpg"><img src="r.jpg" width="300" alt="Image cannot be displayed"></a></div>
+
+
+
+</body>
+</html>

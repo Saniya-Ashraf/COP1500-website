@@ -1,0 +1,247 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+nav { 
+background: #ffff;
+}
+
+h1 #mainHeading{ 
+ color: black;
+}
+
+    h1 {
+color:#DEF9DA;
+    background:#0D3B4A;
+}
+li {
+	//text-shadow: #F60 2px 1px 6px, #FF0 1px 2px 6px, #000 3px 3px 5px;
+		color:#FFC867;
+		text-align:left;
+		font-family:"Impact,Charcoal,sans-serif"; 
+		font-size:20px;
+		}
+		div.box2:hover{  
+	opacity:1.0;
+}
+
+body { background: url(new%20canvas%20.png) center no-repeat fixed;
+		background-size:cover;}
+
+div.top { margin-top:0px;
+	text-align: right;
+	}
+	
+.hl:link{ 
+		
+		color:white;
+		font-weight:600;
+		text-indent:4px;
+	    text-outline:#FFF
+		font-weight: bold;
+		text-decoration:none;
+		text-shadow: #000 1px 1px 5px, #fff 1px 1px 5px;
+		font-family:"Lucida Console", Monaco, monospace;
+		padding:3px;
+		text-align: right;
+		font-size:medium; }
+	 
+.hl:visited{ 
+		
+		color:white;
+		font-weight:600;
+		text-indent:4px;
+	    text-outline:#FFF
+		font-weight: bold;
+		text-decoration:none;
+		text-shadow: #000 1px 1px 5px, #fff 1px 1px 5px;
+		font-family:"Impact,Charcoal,sans-serif";
+		padding:3px;
+		text-align: right;
+		font-size:medium; }
+
+.hl:hover{
+	
+	font-weight:600;
+		text-indent:4px;
+	color:#FFF;
+	//font-family: "Impact,Charcoal,sans-serif";
+	padding: 3px;
+	text-align:center;
+	text-decoration:underline;
+	background: #303;
+	animation:ease-in;
+	border:4px ridge #06F;
+	outline:3px #0F9 double; 
+	 }
+	 
+.hl:active{ 
+		
+		color:white;
+		font-weight:600;
+		text-indent:4px;
+	    text-outline:#FFF
+		font-weight: bold;
+		text-decoration:none;
+		text-shadow: #000 1px 1px 5px, #fff 1px 1px 5px;
+		font-family:"Impact,Charcoal,sans-serif";
+		padding:3px;
+		text-align: right;
+		font-size:medium; }
+
+
+	
+.main{ 
+     
+    text-align:center;
+	text-shadow: #000 2px 2px 5px, #003 2px 1px 5px,#F03 2px 3px 6px, #0FF 3px 3px 4px;;
+	padding:20%;
+	font-weight:bolder;
+	font-family:"Impact,Charcoal,sans-serif";
+	font-size:50px;
+	text-align:center;
+	color:#FFF;
+    opacity:0.9;
+	
+}
+
+.supp{ font-size: 30px;
+         text-decoration:overline; }
+
+
+
+
+
+div.box1
+{
+	text-align:center;
+    margin:auto;
+    margin-top:6%;
+    width:70%;
+	padding:10px;
+	background:#0D3B4A;
+	opacity:0.9;
+	outline: #F5808D double 7px;
+	border:10px #CC0066 groove;
+	border-spacing:10px;
+    color: azure;
+}
+
+
+div.box1 p{
+	color:#FFF;
+	text-shadow: #F06 2px 1px 6px, #603 1px 2px 6px, #000 3px 3px 5px;
+	text-align:center;
+	font-weight:bold;
+    font-family:"Impact,Charcoal,sans-serif";
+	font-size:30px;
+}
+div.box1:hover{  
+	opacity:1.0;
+	}
+	
+	div.box2{ 
+	
+	text-align:center;
+	margin:auto;
+    margin-top:6%;
+    width:70%;
+	padding:10px;
+	background: #031727;
+	opacity:0.9;
+	border: #0D3B4A;
+	outline: #FF0 double 7px;
+	
+	border-spacing:10px;
+	
+	}
+	
+	div.box2 p{
+		//text-shadow: #F60 2px 1px 6px, #FF0 1px 2px 6px, #000 3px 3px 5px;
+		color:#FFF;
+		text-align:left;
+		font-family:"Impact,Charcoal,sans-serif";
+		
+		}
+		div.box2:hover{  
+	opacity:1.0;
+	}
+	b{
+		font-size:42px;
+		text-transform:capitalize;
+		
+	}
+	
+	.box3{ 
+	text-align:center;
+	 margin:auto;
+   margin-top:6%;
+   width:70%;
+	padding:10px;
+	background: url(photography-art-5.jpg);
+	border: #0CF groove 10px;
+	outline: #6FC double 7px;
+	border-spacing:10px;
+	font-family:"Impact,Charcoal,sans-serif";
+	font-weight:700;
+	
+	color:#FFF;
+	text-shadow:#F03 2px 3px 6px, #0FF 3px 3px 4px;
+	}
+	
+	div.box4{ 
+	text-align:center;
+	margin:auto;
+    margin-top:6%;
+    width:70%;
+	padding:10px;
+	background: url(photography-art-5.jpg);
+	border-spacing:10px;
+	font-family:"Impact,Charcoal,sans-serif";
+	font-weight:700;
+	
+	color:#FFF;
+	text-shadow:#069 2px 3px 6px,#9F0  3px 3px 4px;
+	border: #0C9 groove 10px;
+	outline: #9F0 double 7px;
+	}
+	
+	div.box4 img { width:13%;
+	
+	}
+	div.box4 img:hover {width:15%;
+	
+	}
+	
+	div.img {
+	background: url(photography-art-5.jpg);
+	text-align:center;
+    margin-top: 5%;
+	margin-bottom:5%;
+	margin-left:32%;
+	margin-right:auto;
+    padding: 5px;
+    height: auto;
+    width: 40%;
+    float: auto;
+    text-align: center;
+	border: 5px  double #0CF;
+	outline: #6FC dotted 3px;
+	border-spacing:2px;
+}	
+
+div.img img {
+	width:40%;
+	display: inline;
+    margin: 5px;
+    border:5px  #6633FF ridge;
+	outline: #C6F dashed 4px;
+	margin:2%;
+}
+
+div.img a:hover img {
+	width:50%;
+    border:6px #000099 ridge;
+	outline: #603 dashed 4px;
+	margin:3%;
+}

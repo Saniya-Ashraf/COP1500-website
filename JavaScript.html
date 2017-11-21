@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>
+<title>Javascript</title>
+<link rel="stylesheet" type="text/css" href="STYLESHEET1.css">
+</head>
+    <body>
+        
+	<div class="top">
+		<a class="hl"  href="Myportfolio.html">Home</a>
+		<a class="hl" href="aboutMe.html">About Me</a>
+		<a class="hl" href="skills.html">Skills</a>
+		<a  class="hl" href="art.html">Art</a>
+		<a class="hl" href="contactMe.html">Contact Me</a>
+        <a class= "hl" href="JavaScript.html"> JavaScript Exercises</a>
+</div>
+ <div class="box1">    
+<h1>Problem 1: Output Only</h1>
+<h2>Plans and pseudocode:</h2>
+<ol>
+    <li>Declare a Variable and Store "Hello World" in it.</li>
+    <li>Output Variable.</li>
+    </ol>
+
+<h2>Solution:</h2>
+    <code>var sol1 = "Hello World";</code><br />
+    <code>document.getElementById("1").innerHTML = sol1;</code>
+
+<h2>Demonstration:</h2>
+<p id="1"></p>
+<script>
+var sol1 = "Hello World";
+document.getElementById("1").innerHTML = sol1;
+</script>
+
+-----------------------------------------------------------------------
+
+<h1>Input and Output</h1>
+
+<h2>Plans and pseudocode:</h2>
+<ol><li>create a function that gets triggered when user clicks</li>
+<li>Declare a Variable and Store "User's Name" in it.</li>
+<li>Output Name with Greeting</li>
+    </ol>
+
+<h2>Solution:</h2>
+<code>sol2 = function()</code>
+<code>{</code><br />
+<code>	var name = document.getElementById("2").value;</code><br />
+<code>	document.getElementById("3").innerHTML = "Welcome "+name;</code><br />
+<code>}</code>
+
+<h2>Demonstartion:</h2>
+<input type="text" placeholder="enter your name" id="2"></input>
+<button onclick="sol2()">Greet Me!!</button>
+<p id="3"></p>
+    
+<script>
+sol2 = function() {
+var name = document.getElementById("2").value;
+document.getElementById("3").innerHTML = "Welcome "+name;
+}</script>
+
+<h1>Input, Processing, and Output</h1>
+
+
+<h1>3. Meal Price</h1>
+
+<h2>Plans and pseudocode:</h2>
+<ol>
+    <li>Create a Function that will be triggered when user clicks calculate.</li>
+    <li>Make a varriable named Price that will hold the price given by users</li>
+    <li>Make a variable named Total that will hold the total price with taxes and tip.</li>
+    <li>Output the Total price
+    </ol>
+
+<h2>Solution:</h2>
+<code>sol 3 = function()</code>
+<code>{</code>
+<code>            var price=  parseFloat(document.getElementById("4").value);</code><br />
+<code>            var total  = price + (price * .2) + (price* .03);</code><br />
+<code>            document.getElementById("6").innerHTML = "Total: " + totalCost;</code><br />
+<code>}</code>
+
+<h2>Demostration</h2>
+<strong>Tax: 3% and Tip 20%</strong><br />
+    <input type="Number" placeholder="Enter Price" id="4"></input>
+    <button onclick="sol3()">Calculate!!</button><br />
+    <p id="6"></p>
+    
+<script>
+sol3 = function() 
+{ 
+var price= parseFloat(document.getElementById("4").value);
+var total = price + (price * .2) + (price* .03);
+document.getElementById("6").innerHTML = "Total: " + total;
+}</script>
+
+<h1>Meal Price 2</h1>
+<h2> Plans and pseudocode:</h2>
+<ol>
+<li>Make a varriable named Price that will hold the price given by users</li>
+<li>Make a varriable named Tip that will hold the price given by users</li>
+<li>Make a varriable named Tax that will hold the price given by users</li>
+<li>Make a variable named Total that will hold the total price with taxes and tip.</li>
+<li>Output the Total price</li>
+</ol>
+<h2>Solution</h2>
+<code>sol4 = function()</code><br />
+<code>{</code><br />
+<code>            var price=  parseFloat(document.getElementById('7').value);</code><br />
+<code>            var tip =  parseFloat(document.getElementById('8').value);</code><br />
+<code>            var tax = parseFloat(document.getElementById('9').value);</code><br />
+<code>            var total  = price + (price * (tip/100)) + (price* (tax/100));</code><br />
+<code>            document.getElementById("10").innerHTML = "Total: " + total;</code><br />
+<code>}</code><br />
+
+<h2>Demonstration</h2>
+    <input type="Number" placeholder="Enter Price" id="7"></input>
+    <input type="Number" placeholder="Enter Tip" id="8"></input>
+    <input type="Number" placeholder="Enter Tax" id="9"></input>
+    <button onclick="sol4()">Calculate!!</button><br />
+    <p id="10"></p>
+<script>
+sol4 = function()
+{
+            var price=  parseFloat(document.getElementById('7').value);
+            var tip =  parseFloat(document.getElementById('8').value);
+            var tax = parseFloat(document.getElementById('9').value);
+            var total  = price + (price * (tip/100)) + (price* (tax/100));
+            document.getElementById("10").innerHTML = "Total: " + total;
+}
+        </script>
+</div>    
+</body>
+</html>
